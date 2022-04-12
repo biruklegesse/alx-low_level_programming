@@ -1,17 +1,18 @@
 #include "main.h"
 /**
  * main - entry block
+ * @void: no argument
  * Return: Always 0 (Success)
  **/
 int main(void)
 {
-	int n = 0;
-	char str_hbt[9] = "Holberton";
+	char biruk[] = "_putchar";
 
-	while (n < 9)
+	int c;
+        
+        for (c=0; c<8; c++)
 	{
-		_putchar(str_hbt[n]);
-		n += 1;
+		_putchar(biruk[c]);
 	}
 	_putchar('\n');
 	return (0);
